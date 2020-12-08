@@ -1,0 +1,33 @@
+npm config set registry  &&  npm config get registry
+  淘宝镜像的两种设置
+
+npm i -g cnpm --     以上两个出错后使用
+
+
+用npm安装: npm i -g @vue/cli     
+如果npm出错，可换成: cnpm i -g
+
+验证vue/cli是否安装成功: vue -V
+
+
+在命令行中运行: vue create 自定义项目名（mypeoject）
+
+
+
+1). ? Please pick a preset: (Use arrow keys)
+      Default ([Vue 2] babel, eslint)
+      Default (Vue 3 Preview) ([Vue 3] babel, eslint)
+    > Manually select features
+
+
+( ) Choose Vue version //因为3暂时时预览版，不是正式版，所以暂时用2
+ 			(*) Babel //翻译工具
+ 			( ) TypeScript //在angularjs中学
+ 			( ) Progressive Web App (PWA) 
+ 			(*) Router //单页面应用的核心
+ 			(*) Vuex //今天暂时不选
+ 			( ) CSS Pre-processors //如果你的项目用到了sass/less，才选
+ 			( ) Linter / Formatter //初学者暂时不选
+ 			( ) Unit Testing
+ 			( ) E2E Testing
+
